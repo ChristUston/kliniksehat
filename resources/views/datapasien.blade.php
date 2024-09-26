@@ -25,7 +25,10 @@
               <tr>
                 <th scope="col">Nama</th>
                 <th scope="col">Kategori</th>
-                <th scope="col">Status Pembayaran</th>
+                <th scope="col">Keluhan</th>
+                <th scope="col">Gejala</th>
+                <th scope="col">Jenis Pemeriksaan</th>
+                <th scope="col">Harga</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
@@ -33,19 +36,11 @@
               <tr>
                 <td>John Doe</td>
                 <td>Umum</td>
-                <td>Lunas</td>
+                <td>Hahahaha</td>
+                <td>Hahahaha</td>
+                <td>Hahahaha</td>
+                <td>271T</td>
                 <td>
-                    <button class="btn btn-info btn-sm">Lihat</button>
-                    <button class="btn btn-primary btn-sm">Edit</button>
-                    <button class="btn btn-danger btn-sm">Hapus</button>
-                </td>
-              </tr>
-              <tr>
-                <td>Jane Smith</td>
-                <td>BPJS</td>
-                <td>Belum Lunas</td>
-                <td>
-                    <button class="btn btn-info btn-sm">Lihat</button>
                     <button class="btn btn-primary btn-sm">Edit</button>
                     <button class="btn btn-danger btn-sm">Hapus</button>
                 </td>

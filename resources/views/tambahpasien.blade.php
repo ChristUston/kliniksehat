@@ -5,6 +5,10 @@
 <div class="container mt-5">
     <h2 class="text-center">Tambah Data Pasien</h2>
     <form>
+        <div class="mb-3">
+            <label for="foto" class="form-label">Foto</label>
+            <input type="file" class="form-control" id="foto" name="foto" accept="image/*">
+          </div>
         <div class="form-group">
             <label for="namaPasien">Nama Pasien</label>
             <input type="text" class="form-control" id="namaPasien" placeholder="Masukkan nama pasien">
@@ -27,6 +31,10 @@
         </div>
         <div class="form-group">
             <label for="keluhan">Keluhan</label>
+            <textarea class="form-control" id="keluhan" rows="3" placeholder="Masukkan keluhan"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="keluhan">Gejala</label>
             <textarea class="form-control" id="keluhan" rows="3" placeholder="Masukkan keluhan"></textarea>
         </div>
         <div class="form-group">
