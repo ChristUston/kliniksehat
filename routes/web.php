@@ -29,3 +29,7 @@ Route::get('/tambahpasien', function () {
 Route::get('/payment', function () {
     return view('payment');
 })->name('payment');
+
+Route::get('/kelolauser', function () {
+    return view('superadmin.kelolauser');
+})->name('kelolauser');

@@ -12,8 +12,8 @@
         </div>
        
         <div class="form-group">
-            <label for="alamatDomisili">Biaya Pemeriksaan</label>
-            <textarea class="form-control" id="alamatDomisili" rows="3" placeholder="Masukkan biaya"></textarea>
+            <label for="biaya">Biaya Pemeriksaan</label>
+            <input class="form-control" id="alamatDomisili" placeholder="Masukkan biaya">
         </div>
         <button type="submit" class="btn btn-primary">Tambahkan</button>
     </form>

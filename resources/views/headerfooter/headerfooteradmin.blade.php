@@ -46,8 +46,10 @@
         <nav id="navmenu" class="navmenu">
             <ul>
                 <li><a href="{{ route('dashboard') }}">Beranda</a></li>
+                <li><a href="">Periksa</a></li>
                 <li><a href="{{ route('datapasien') }}">Data Pasien</a></li>
                 <li><a href="{{ route('jenispemeriksaan') }}">Jenis Pemeriksaan</a></li>
+                <li><a href="">Kelola User</a></li>
                 <li><a href="{{ route('home') }}">keluar</a></li>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>

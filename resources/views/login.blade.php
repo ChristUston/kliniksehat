@@ -1,4 +1,4 @@
-@extends('headerfooter.headerfooterlogin')
+@extends('headerfooter.headerfooter')
 
 @section('content')
 
